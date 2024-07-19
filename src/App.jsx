@@ -1,11 +1,12 @@
 import React from 'react'
-import ToggleFunc from './Toggle/ToggleFunc'
+
+import AssignmentTwo from './AssignmentTwo';
 
 const App = () => {
   return (
     <div>
-      <ToggleFunc/>
       
+      <AssignmentTwo/>
     </div>
   )
 }
