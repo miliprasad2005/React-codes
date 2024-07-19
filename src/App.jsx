@@ -1,10 +1,10 @@
 import React from 'react'
-import Toggle_Func from './Toggle_and_statehooks/Toggle_Func'
+import ToggleFunc from './Toggle/ToggleFunc'
 
 const App = () => {
   return (
     <div>
-      <Toggle_Func/>
+      <ToggleFunc/>
       
     </div>
   )
