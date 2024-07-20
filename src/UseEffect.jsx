@@ -1,5 +1,6 @@
 import React ,{useEffect} from 'react'
 import { useState } from 'react'
+import "./App.css"
 const UseEffect = () => {
     const[count,setCount] = useState(0)
     const[countTwo,setCountTwo] = useState(0)

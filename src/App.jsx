@@ -1,5 +1,5 @@
 import React from 'react'
-import UseState from './UseState'
+import UseState from './UseState';
 import UseEffect from './UseEffect';
 /*import ToggleFunc from './component/ToggleFunc';*/
 
