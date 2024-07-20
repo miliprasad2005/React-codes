@@ -1,32 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .navbar{
-    height: 50px;
-    background-color: palevioletred;
-  
-  }
-  
-  ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-  }
-  
-  a{
-    text-decoration:none;
-    color: white;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-  }
-  a:hover{
-    color: blue;
-  }
-  
+/* .cardOne{
+  border: 3px solid gray;
+  background-color: antiquewhite;
+  border-radius: 30px;
+  box-shadow: 5px 5px 8px 2px rgb(204, 202, 202) ;
+  padding: 30px;
+}
+
+.paraone{
+  color: brown;
+}
+.container{
+  display: flex;
+} */
