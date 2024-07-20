@@ -1,26 +1,27 @@
-import React from 'react'
+import React from "react";
+import {BrowserRouter as Router ,Routes,Route} from 'react-router-dom'
 
-import MovieProvider from './DynamicContext.jsx/MovieProvider';
-import MovieList from './DynamicContext.jsx/MovieList';
+// import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import "./App.css"
 
 const App = () => {
   return (
     <div>
-
-      <h1 style={{background:"blue",color:"black"}}>Here is the example of ContextApi, I have used to make Dark and Light mode Theme</h1>
- 
-      <br/>
-      <br/>
-      <br/>
-      <h1 style={{background:"blue",color:'black'}}>Here is the example of Dynamic context, I send the the movie data from MovieContext to MovieList, and render the Data's </h1>
-
-      <MovieProvider>
-        <MovieList/>
-      </MovieProvider>
-
-
+      <Router>
+        <Navbar/>
+       
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
