@@ -1,7 +1,7 @@
 import React from "react";
 import FunCompOne from "./FunCompOne";
 import FunCompTwo from "./FunCompTwo";
-import { useState } from "react";
+ import { useState } from "react";
 import "../App.css"
 
 const Toggle_Func = () => {
